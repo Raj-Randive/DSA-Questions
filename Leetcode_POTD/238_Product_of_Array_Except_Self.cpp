@@ -53,6 +53,7 @@ public:
     // return answer;
 
     // ************************ Optimal Solution ************************
+    // complexity: Time: O(n) Space: O(1)
     int n = nums.size();
     vector<int> answer(n, 1);
     int curr = 1;
